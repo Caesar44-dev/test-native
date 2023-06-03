@@ -47,28 +47,28 @@ const Character = () => {
             className="w-full h-1/2 mb-2"
           />
           <View className="flex flex-wrap justify-center items-center p-6">
-            <View className="flex flex-col justify-center items-start">
+            <View className="flex flex-col justify-center items-start m-4">
               <Text className="text-base font-bold text-blue-500 mb-2">ID:</Text>
               <Text className="text-sm text-gray-900">{data.id}</Text>
             </View>
-            <View className="flex flex-col justify-center items-start">
+            <View className="flex flex-col justify-center items-start m-4">
               <Text className="text-base font-bold text-blue-500 mb-2">Name:</Text>
               <Text className="text-sm text-gray-900">{data.name}</Text>
             </View>
-            <View className="flex flex-col justify-center items-start">
+            <View className="flex flex-col justify-center items-start m-4">
               <Text className="text-base font-bold text-blue-500 mb-2">Status:</Text>
               <Text className="text-sm text-gray-900">{data.status}</Text>
             </View>
-            <View className="flex flex-col justify-center items-start mb-2">
-              <Text className="text-base font-bold text-blue-500">Species:</Text>
+            <View className="flex flex-col justify-center items-start m-4">
+              <Text className="text-base font-bold text-blue-500 mb-2">Species:</Text>
               <Text className="text-sm text-gray-900">{data.species}</Text>
             </View>
-            <View className="flex flex-col justify-center items-start mb-2">
-              <Text className="text-base font-bold text-blue-500">Type:</Text>
+            <View className="flex flex-col justify-center items-start m-4">
+              <Text className="text-base font-bold text-blue-500 mb-2">Type:</Text>
               <Text className="text-sm text-gray-900">{data.type}</Text>
             </View>
-            <View className="flex flex-col justify-center items-start mb-2">
-              <Text className="text-base font-bold text-blue-500">Gender:</Text>
+            <View className="flex flex-col justify-center items-start m-4">
+              <Text className="text-base font-bold text-blue-500 mb-2">Gender:</Text>
               <Text className="text-sm text-gray-900">{data.gender}</Text>
             </View>
           </View>
